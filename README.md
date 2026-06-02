@@ -22,14 +22,14 @@ Daimon operates as a closed-loop system:
 ```
 3.  **Interface Calibration:** Launch the Streamlit control panel:
 ```bash
-    streamlit run sliders_app_2.py
+    streamlit run sliders_app.py
 ```
 
 ## Repository Structure
 *   `/stories`: Archival storage for generated artifacts.
 *   `hormone_lab.db`: SQLite ledger containing all authored presets and limbic state transitions.
 *   `hormone_lab_v4.2.py`: The core generation and SQLite-integration engine.
-*   `sliders_app_2.py`: The psychometric interface and control panel for live inference.
+*   `sliders_app.py`: The psychometric interface and control panel for live inference.
 
 ## The Hedge-Trimming Philosophy
 Daimon is not a static tool; it is a collaborative instrument. Use the output audit to identify structural failure modes (clichés, overused adjectives, procedural drift). As you trim these stylistic hedges, your authorial profiles become increasingly indistinguishable from the target manifold.
